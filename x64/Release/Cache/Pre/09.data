@@ -1,0 +1,1 @@
+{"EndPoints":[{"Protocol":"https","Host":"dummy-xsts-host.test.svc.halowaypoint.com","HostType":"fqdn","RelyingParty":"https://test.xsts.halowaypoint.com/","TokenType":"JWT"},{"Protocol":"http","Host":"*","HostType":"wildcard"},{"Protocol":"https","Host":"*","HostType":"wildcard"}]}

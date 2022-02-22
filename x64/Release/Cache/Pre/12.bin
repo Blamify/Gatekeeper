@@ -1,0 +1,1 @@
+{"ServiceConfig":{"SettingsBaseUri":"settings-shooter.test.svc.halowaypoint.com","XSTSHaloAudienceUri":"https://dummy-xsts-host.test.svc.halowaypoint.com/","Whatever":"Who Cares"},"_sourceNodes":["ServiceConfig.SettingsBaseUri:Sandbox:RETAIL","ServiceConfig.XSTSHaloAudienceUri:Sandbox:RETAIL"]}
