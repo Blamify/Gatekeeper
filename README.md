@@ -4,8 +4,8 @@ A Halo Infinite mod and local offline server.
 Currently this mod only supports the following builds of Halo Infinite.  
 Sept-2021 Flight build 7414570 (SHA-1 5A36B8772B076D40F2A837F2DB0F72AB21B78134).
 
-Virgil and Superintendent are two parts of the same product, one will not function correctly without the other.  
-Virgil is the game mod itself, the game will need to be patched to load this module.  
+Vergil and Superintendent are two parts of the same product, one will not function correctly without the other.  
+Vergil is the game mod itself, the game will need to be patched to load this module.  
 Superintendent is the server that allows access to the game.
 
 ### Notice:
@@ -16,7 +16,8 @@ All mock server response files are obtained from a release build of Halo Infinit
 This step must be done for both source and release builds (only once).  
 Open HaloInfinite.exe in a hex editor of your choice.  
 Search for the text value of "USER32" (without the quotes).  
-Replace it with the text value of "VIRGIL" (without the quotes).
+Replace it with the text value of "VERGIL" (without the quotes).  
+Save the file, then rename or delete steam_api64.dll.
 
 ### Building from source:
 This project requires Visual Studio 2017 (or above) and OpenSSL v1.1.1 (for certificate creation).  
@@ -31,7 +32,7 @@ These can be found in the "Releases" section of this repo.
 Every release will include a generic certificate which will be installed as root.  
 The domain name of the server will also be added to the Window's Hosts file.  
 Simply download the current release build and extract the contents to your Halo Infinite flight directory.  
-Run Setup.bat (as admin), make sure to delete (or rename) steam_api64.dll, and start Superintendent.exe.  
+Run Setup.bat (as admin) and start Superintendent.exe.  
 Start HaloInfinite.exe and make sure you have output in the server console window.  
 Once logged in, select custom games, select your map, and hit play.
 
